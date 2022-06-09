@@ -17,6 +17,7 @@
 		7557D67028520DD00059DE7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7557D66E28520DD00059DE7C /* Main.storyboard */; };
 		7557D67228520DD10059DE7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7557D67128520DD10059DE7C /* Assets.xcassets */; };
 		7557D67528520DD10059DE7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7557D67328520DD10059DE7C /* LaunchScreen.storyboard */; };
+		7557D67B285224320059DE7C /* PrintLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557D67A285224320059DE7C /* PrintLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		7557D67128520DD10059DE7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7557D67428520DD10059DE7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7557D67628520DD10059DE7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7557D67A285224320059DE7C /* PrintLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		7557D63E28520C420059DE7C = {
 			isa = PBXGroup;
 			children = (
+				7557D67A285224320059DE7C /* PrintLib.swift */,
 				7557D64A28520C420059DE7C /* PrintLib */,
 				7557D65628520C420059DE7C /* PrintLibTests */,
 				7557D66728520DD00059DE7C /* SampleCode */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7557D64D28520C420059DE7C /* PrintLib.docc in Sources */,
+				7557D67B285224320059DE7C /* PrintLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +499,7 @@
 		7557D66028520C420059DE7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UVJQV2LNHC;
@@ -511,6 +516,7 @@
 		7557D66128520C420059DE7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UVJQV2LNHC;
