@@ -6,7 +6,23 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		752CC0922868D39000002735 /* PrintLibUniversal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 752CC0952868D39000002735 /* Build configuration list for PBXAggregateTarget "PrintLibUniversal" */;
+			buildPhases = (
+				752CC0962868D39600002735 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = PrintLibUniversal;
+			productName = PrintLibUniversal;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		3631E7FAB80D082AEF986450 /* Pods_PrintLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1E7D82B2B36884069C2A79 /* Pods_PrintLib.framework */; };
+		424626EECF75649196CAA0D8 /* Pods_SampleCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EC81AB45BB1505F47CB0FB /* Pods_SampleCode.framework */; };
 		7557D64D28520C420059DE7C /* PrintLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = 7557D64C28520C420059DE7C /* PrintLib.docc */; };
 		7557D65328520C420059DE7C /* PrintLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7557D64828520C420059DE7C /* PrintLib.framework */; };
 		7557D65828520C420059DE7C /* PrintLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557D65728520C420059DE7C /* PrintLibTests.swift */; };
@@ -19,6 +35,7 @@
 		7557D67528520DD10059DE7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7557D67328520DD10059DE7C /* LaunchScreen.storyboard */; };
 		7557D67B285224320059DE7C /* PrintLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557D67A285224320059DE7C /* PrintLib.swift */; };
 		7557D67D2852FDB90059DE7C /* travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 7557D67C2852FDB90059DE7C /* travis.yml */; };
+		8086E086DB25E79281712D39 /* Pods_PrintLib_PrintLibTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDE8F123DA132F329A26510 /* Pods_PrintLib_PrintLibTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1125C84F91906D7BB2F058B7 /* Pods-PrintLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrintLib.release.xcconfig"; path = "Target Support Files/Pods-PrintLib/Pods-PrintLib.release.xcconfig"; sourceTree = "<group>"; };
+		13EC81AB45BB1505F47CB0FB /* Pods_SampleCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		244EAAF091D672896F4E2727 /* Pods-PrintLib-PrintLibTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrintLib-PrintLibTests.release.xcconfig"; path = "Target Support Files/Pods-PrintLib-PrintLibTests/Pods-PrintLib-PrintLibTests.release.xcconfig"; sourceTree = "<group>"; };
+		2CDE8F123DA132F329A26510 /* Pods_PrintLib_PrintLibTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrintLib_PrintLibTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D86098DCD49E5B4F6F850F /* Pods-SampleCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleCode.debug.xcconfig"; path = "Target Support Files/Pods-SampleCode/Pods-SampleCode.debug.xcconfig"; sourceTree = "<group>"; };
+		40C1DF3F37671FC1594FF143 /* Pods-PrintLib-PrintLibTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrintLib-PrintLibTests.debug.xcconfig"; path = "Target Support Files/Pods-PrintLib-PrintLibTests/Pods-PrintLib-PrintLibTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7557D64828520C420059DE7C /* PrintLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrintLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7557D64B28520C420059DE7C /* PrintLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintLib.h; sourceTree = "<group>"; };
 		7557D64C28520C420059DE7C /* PrintLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = PrintLib.docc; sourceTree = "<group>"; };
@@ -47,6 +70,9 @@
 		7557D67628520DD10059DE7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7557D67A285224320059DE7C /* PrintLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintLib.swift; sourceTree = "<group>"; };
 		7557D67C2852FDB90059DE7C /* travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = travis.yml; sourceTree = "<group>"; };
+		7909110EF5BD3B2E228CED03 /* Pods-PrintLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrintLib.debug.xcconfig"; path = "Target Support Files/Pods-PrintLib/Pods-PrintLib.debug.xcconfig"; sourceTree = "<group>"; };
+		7B1E7D82B2B36884069C2A79 /* Pods_PrintLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrintLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8519FB9CCAA18F83DE66173D /* Pods-SampleCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleCode.release.xcconfig"; path = "Target Support Files/Pods-SampleCode/Pods-SampleCode.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3631E7FAB80D082AEF986450 /* Pods_PrintLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +89,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7557D65328520C420059DE7C /* PrintLib.framework in Frameworks */,
+				8086E086DB25E79281712D39 /* Pods_PrintLib_PrintLibTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,12 +97,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424626EECF75649196CAA0D8 /* Pods_SampleCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2165B0F66DD535509AF9B5F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7909110EF5BD3B2E228CED03 /* Pods-PrintLib.debug.xcconfig */,
+				1125C84F91906D7BB2F058B7 /* Pods-PrintLib.release.xcconfig */,
+				40C1DF3F37671FC1594FF143 /* Pods-PrintLib-PrintLibTests.debug.xcconfig */,
+				244EAAF091D672896F4E2727 /* Pods-PrintLib-PrintLibTests.release.xcconfig */,
+				30D86098DCD49E5B4F6F850F /* Pods-SampleCode.debug.xcconfig */,
+				8519FB9CCAA18F83DE66173D /* Pods-SampleCode.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D7B0C516DF926B6151B0BD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B1E7D82B2B36884069C2A79 /* Pods_PrintLib.framework */,
+				2CDE8F123DA132F329A26510 /* Pods_PrintLib_PrintLibTests.framework */,
+				13EC81AB45BB1505F47CB0FB /* Pods_SampleCode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7557D63E28520C420059DE7C = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +136,8 @@
 				7557D65628520C420059DE7C /* PrintLibTests */,
 				7557D66728520DD00059DE7C /* SampleCode */,
 				7557D64928520C420059DE7C /* Products */,
+				2165B0F66DD535509AF9B5F6 /* Pods */,
+				6D7B0C516DF926B6151B0BD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7557D65C28520C420059DE7C /* Build configuration list for PBXNativeTarget "PrintLib" */;
 			buildPhases = (
+				4D95DB63D47EB370DC90FE9F /* [CP] Check Pods Manifest.lock */,
 				7557D64328520C420059DE7C /* Headers */,
 				7557D64428520C420059DE7C /* Sources */,
 				7557D64528520C420059DE7C /* Frameworks */,
@@ -164,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7557D65F28520C420059DE7C /* Build configuration list for PBXNativeTarget "PrintLibTests" */;
 			buildPhases = (
+				51DF1ED79907D629A0F12315 /* [CP] Check Pods Manifest.lock */,
 				7557D64E28520C420059DE7C /* Sources */,
 				7557D64F28520C420059DE7C /* Frameworks */,
 				7557D65028520C420059DE7C /* Resources */,
@@ -182,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7557D67728520DD10059DE7C /* Build configuration list for PBXNativeTarget "SampleCode" */;
 			buildPhases = (
+				4AD83C2F75C2E1E743FFA7C0 /* [CP] Check Pods Manifest.lock */,
 				7557D66228520DD00059DE7C /* Sources */,
 				7557D66328520DD00059DE7C /* Frameworks */,
 				7557D66428520DD00059DE7C /* Resources */,
@@ -205,6 +262,9 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					752CC0922868D39000002735 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					7557D64728520C420059DE7C = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -232,6 +292,7 @@
 				7557D64728520C420059DE7C /* PrintLib */,
 				7557D65128520C420059DE7C /* PrintLibTests */,
 				7557D66528520DD00059DE7C /* SampleCode */,
+				752CC0922868D39000002735 /* PrintLibUniversal */,
 			);
 		};
 /* End PBXProject section */
@@ -263,6 +324,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AD83C2F75C2E1E743FFA7C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleCode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D95DB63D47EB370DC90FE9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrintLib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51DF1ED79907D629A0F12315 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrintLib-PrintLibTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		752CC0962868D39600002735 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n\n# 2. Copy Device(arm64) Framework at fresh universal folder location \ncp -a \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n\n\n#3. Copy Sim(x86_64) Frameworks's \"MyFramework.swiftmodule\" Folder Content & paste it at  Fat(x86_64 + arm64) Frameworks's  \"MyFramework.swiftmodule\" folder.\n\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n\n\n# Step 5. Copy output at Project Directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Open Project Directory\nopen \"${PROJECT_DIR}\"#1. After then make a fresh directory directory \n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n\n# 2. Copy Device(arm64) Framework at fresh universal folder location \ncp -a \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n\n\n#3. Copy Sim(x86_64) Frameworks's \"MyFramework.swiftmodule\" Folder Content & paste it at  Fat(x86_64 + arm64) Frameworks's  \"MyFramework.swiftmodule\" folder.\n\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n\n\n# Step 5. Copy output at Project Directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Open Project Directory\nopen \"${PROJECT_DIR}\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7557D64428520C420059DE7C /* Sources */ = {
@@ -322,6 +469,27 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		752CC0932868D39000002735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		752CC0942868D39000002735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
 		7557D65A28520C420059DE7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -381,6 +549,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_WORKSPACE = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -439,6 +608,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				VALIDATE_WORKSPACE = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -446,7 +616,9 @@
 		};
 		7557D65D28520C420059DE7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7909110EF5BD3B2E228CED03 /* Pods-PrintLib.debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -465,16 +637,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Affle.PrintLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
 			};
 			name = Debug;
 		};
 		7557D65E28520C420059DE7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1125C84F91906D7BB2F058B7 /* Pods-PrintLib.release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -493,15 +668,17 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Affle.PrintLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
 			};
 			name = Release;
 		};
 		7557D66028520C420059DE7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C1DF3F37671FC1594FF143 /* Pods-PrintLib-PrintLibTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -519,6 +696,7 @@
 		};
 		7557D66128520C420059DE7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 244EAAF091D672896F4E2727 /* Pods-PrintLib-PrintLibTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +714,7 @@
 		};
 		7557D67828520DD10059DE7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D86098DCD49E5B4F6F850F /* Pods-SampleCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -564,6 +743,7 @@
 		};
 		7557D67928520DD10059DE7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8519FB9CCAA18F83DE66173D /* Pods-SampleCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -593,6 +773,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		752CC0952868D39000002735 /* Build configuration list for PBXAggregateTarget "PrintLibUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752CC0932868D39000002735 /* Debug */,
+				752CC0942868D39000002735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7557D64228520C420059DE7C /* Build configuration list for PBXProject "PrintLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

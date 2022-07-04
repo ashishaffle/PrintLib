@@ -5,8 +5,6 @@
 //  Created by Ashish on 09/06/22.
 //
 
-import Foundation
-
 
 public final class PrintLib {
 
@@ -19,5 +17,12 @@ public final class PrintLib {
     public func sub(a: Int, b: Int) -> Int {
         return a - b
     }
+
+    
+    public func myMsg() {
+      print("MY first pod....")
+    }
     
 }
+
+

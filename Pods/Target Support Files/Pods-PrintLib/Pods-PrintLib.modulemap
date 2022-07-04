@@ -1,0 +1,6 @@
+framework module Pods_PrintLib {
+  umbrella header "Pods-PrintLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

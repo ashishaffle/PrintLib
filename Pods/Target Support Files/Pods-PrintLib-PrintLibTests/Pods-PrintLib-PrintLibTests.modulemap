@@ -1,0 +1,6 @@
+framework module Pods_PrintLib_PrintLibTests {
+  umbrella header "Pods-PrintLib-PrintLibTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

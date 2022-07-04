@@ -1,0 +1,10 @@
+framework module PrintLib {
+  umbrella header "PrintLib.h"
+
+  export *
+  module * { export * }
+}
+
+module PrintLib.__Swift {
+    exclude header "PrintLib-Swift.h"
+}

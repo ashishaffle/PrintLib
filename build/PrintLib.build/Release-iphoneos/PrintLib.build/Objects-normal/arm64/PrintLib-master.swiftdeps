@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "581d137be6ee43a17b95d0bd000803b9d9cd26a0b221df1b816b1c908ca901e2"
+build_start_time: [1656264528, 446635961]
+build_end_time: [1656264529, 264235019]
+inputs:
+  "/Users/ashish/Desktop/ios_project/PrintLib/PrintLib.swift": !dirty [1654862481, 840250492]

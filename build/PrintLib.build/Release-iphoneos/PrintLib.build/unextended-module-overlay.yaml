@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/ashish/Desktop/ios_project/PrintLib/build/Release-iphoneos/PrintLib.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/ashish/Desktop/ios_project/PrintLib/build/PrintLib.build/Release-iphoneos/PrintLib.build/unextended-module.modulemap",
+    }]
+  }]
+}

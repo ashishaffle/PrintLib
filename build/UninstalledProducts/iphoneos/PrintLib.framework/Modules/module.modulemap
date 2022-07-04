@@ -1,0 +1,11 @@
+framework module PrintLib {
+  umbrella header "PrintLib.h"
+
+  export *
+  module * { export * }
+}
+
+module PrintLib.Swift {
+    header "PrintLib-Swift.h"
+    requires objc
+}
